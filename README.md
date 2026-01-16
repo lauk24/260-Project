@@ -5,10 +5,13 @@
 Movies, TV shows, games, all of them have many websites dedicated to rating and keeping track of experienced media. However, music has no such mainstream equivalent. Rather than the limited information coveyed by just sharing playlists, the application with allow users to display all time favourite artists and songs and currently listening music, catalog and write reviews on listened music which they may not want to have on personal playlists, and view ratings by other users. This allows more flexibility and expression in users' ability to share and find new music. 
 
 ### Design
+
 Potential Profile UI
 ![Mock](SampleProfileUI.png)
+
 Potential Library UI
 ![Mock](SampleLibraryUI.png)
+
 Potential Song Page UI
 ![Mock](SamplePageUI.png)
 
