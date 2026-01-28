@@ -49,11 +49,11 @@ I am going to use the required technologies in the following ways:
 For this deliverable I built out the structure of my application using HTML.
 
 - [x] I completed the prerequisites for this deliverable (Simon deployed, GitHub link, Git commits)
-- [ ] **HTML pages** - 
-- [ ] **Proper HTML element usage** - 
-- [ ] **Links** - 
-- [ ] **Text** - 
-- [ ] **3rd party API placeholder** - 
-- [ ] **Images** - 
-- [ ] **DB/Login** - 
-- [ ] **WebSocket** - 
+- [x] **HTML pages** - 6 HTML pages for logging in, viewing profile, library, song pages, and to search and rate songs.
+- [x] **Proper HTML element usage** - Used headings, sections, tables, and more to give all the pages a clear readable structure.
+- [x] **Links** - Home, Library, and Profile all have links at the top of the pages to be easily accessible, along with a search bar that takes the user to the Search Results. Clicking on any of the album art for the songs will pull up the song page which has an add button that takes the user to the add rating page.
+- [x] **Text** - Song names, artists, tags are represented with text along with other page organizational text.
+- [x] **3rd party API placeholder** - Album art, song names, artist names will all be pulled from a 3rd party API.
+- [x] **Images** - Album art is included to make songs more recognizable for the user.
+- [x] **DB/Login** - Input for login, searching, and ratings. Ratings will be stored and shown on library and used to calculate average ratings.
+- [x] **WebSocket** - The library will record and display realtime the ratings given by the user.
