@@ -7,13 +7,13 @@ Movies, TV shows, games, all of them have many websites dedicated to rating and 
 ### Design
 
 Potential Profile UI
-![Mock](SampleProfileUI.png)
+![Mock](sample-images/SampleProfileUI.png)
 
 Potential Library UI
-![Mock](SampleLibraryUI.png)
+![Mock](sample-images/SampleLibraryUI.png)
 
 Potential Song Page UI
-![Mock](SamplePageUI.png)
+![Mock](sample-images/SamplePageUI.png)
 
 ### Key features
 
@@ -44,3 +44,16 @@ I am going to use the required technologies in the following ways:
   - retrieving artist, album, and song metadata by calling from a third party API
 - **DB/Login** - Store users, ratings, profile customizations in database. Register and login users. Credentials securely stored in database. Can't customize profile or give ratings unless authenticated.
 - **WebSocket** - As ratings are given, live updates to overall ratings
+
+## HTML deliverable
+For this deliverable I built out the structure of my application using HTML.
+
+- [x] I completed the prerequisites for this deliverable (Simon deployed, GitHub link, Git commits)
+- [ ] **HTML pages** - 
+- [ ] **Proper HTML element usage** - 
+- [ ] **Links** - 
+- [ ] **Text** - 
+- [ ] **3rd party API placeholder** - 
+- [ ] **Images** - 
+- [ ] **DB/Login** - 
+- [ ] **WebSocket** - 
