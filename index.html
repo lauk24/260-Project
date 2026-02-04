@@ -1,8 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Login</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
     <body>
         <header>
             <h1>SoundEscape</h1>
+            <form action="search-results.html" method="get" search="search-form">
+                <input type="text" name="q" placeholder="Search for a song" class="search-input">
+                <button type="submit" class="search-button">Search</button>
+            </form>
             <nav>
                 <menu>
                     <li><a href="index.html">Home</a></li>
@@ -10,10 +19,6 @@
                     <li><a href="library.html">My Library</a></li>
                 </menu>
             </nav>
-            <form action="search-results.html" method="get">
-                <input type="text" name="q" placeholder="Search for a song">
-                <button type="submit">Search</button>
-            </form>
             <hr>
         </header>
         <main>

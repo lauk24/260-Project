@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Oi&display=swap');
+header {
+  background-color: #404445;
+  padding: 15px 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  font-size: 48x;
+  font-family: 'Oi', sans-serif;
+  font-weight: normal;
+}
+
+body {
+  background-color: #2b2b2b;
+  margin: 0;
+  margin-top: 80px;
+}
+
+.search-form {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.search-input {
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  width: 800px;
+  font-size: 16px;
+}
+
+.search-button {
+  padding: 15px 30px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  background-color: #555;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+nav a:hover {
+  background-color: #777;
+}
+
+nav menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
