@@ -57,3 +57,15 @@ For this deliverable I built out the structure of my application using HTML.
 - [x] **Images** - Album art is included to make songs more recognizable for the user.
 - [x] **DB/Login** - Input for login, searching, and ratings. Ratings will be stored and shown on library and used to calculate average ratings.
 - [x] **WebSocket** - The library will record and display realtime the ratings given by the user.
+
+## CSS deliverable
+
+For this deliverable I properly styled the application into its final appearance.
+
+- [] I completed the prerequisites for this deliverable (Simon deployed, GitHub link, Git commits)
+- [] **Visually appealing colors and layout. No overflowing elements.** - Looks great, but maybe needs more work on the bouncy ball shadow.
+- [x] **Use of a CSS framework** - I used bootstrap for the button for the search bar
+- [] **All visual elements styled using CSS** - WIP
+- [] **Responsive to window resizing using flexbox and/or grid display** - 
+- [x] **Use of a imported font** - "Oi" being used for the title on the top
+- [] **Use of different types of selectors including element, class, ID, and pseudo selectors** - 

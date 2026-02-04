@@ -1,76 +1,117 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Oi&display=swap');
-header {
-  background-color: #404445;
-  padding: 15px 20px;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 100;
-  display: flex;
-  align-items: center;
-}
 
-h1 {
-  color: white;
-  font-size: 48x;
-  font-family: 'Oi', sans-serif;
-  font-weight: normal;
+/* Base */
+
+* {
+  box-sizing: border-box;
 }
 
 body {
-  background-color: #2b2b2b;
   margin: 0;
-  margin-top: 80px;
+  background-color: #2b2b2b;
+  font-family: 'Noto Sans JP', system-ui, sans-serif;
 }
+
+/* Header */
+
+header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: nowrap;
+
+  padding: 15px 20px;
+  background-color: #404445;
+}
+
+header h1 {
+  margin: 0;
+  color: white;
+  font-family: 'Oi', sans-serif;
+  font-size: clamp(24px, 2.5vw, 48px);
+  font-weight: normal;
+}
+
+/* Search */
 
 .search-form {
   display: flex;
-  gap: 10px;
   align-items: center;
+  gap: 10px;
 }
 
 .search-input {
-  padding: 15px 20px;
+  width: clamp(200px, 70vw, 800px);
+  padding: 10px 20px;
+  font-size: 16px;
+
   border: none;
   border-radius: 5px;
-  width: 800px;
-  font-size: 16px;
 }
 
-.search-button {
-  padding: 15px 30px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
+/* Navigation */
+
+nav {
+  margin-left: auto;
 }
 
-.search-button:hover {
-  background-color: #0056b3;
-}
-
-nav li {
-  margin-right: 20px;
+nav ul {
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 nav a {
+  display: inline-block;
+  padding: 10px 15px;
+
   color: white;
   text-decoration: none;
-  padding: 10px 15px;
   background-color: #555;
   border-radius: 5px;
-  display: inline-block;
 }
 
 nav a:hover {
   background-color: #777;
 }
 
-nav menu {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
+/* Main */
+
+main {
+  padding-top: 10px;
 }
+
+/* Mobile */
+
+@media (max-width: 480px) {
+  header {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  nav {
+    margin-left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  nav ul {
+    justify-content: center;
+  }
+
+  .search-input {
+    width: 100%;
+    max-width: none;
+  }
+}
+
